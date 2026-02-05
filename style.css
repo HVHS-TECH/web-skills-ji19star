@@ -5,19 +5,20 @@
 
 
 body {
-   background-color: rgb(239, 243, 245);
+   background-color: rgb(255, 180, 180);
 
   }
 
 /*marquee*/
 .marq {
-   color:red;
+   color:#4b1118;
 }
 
 /*header*/
 .header {
  font-family: minecraft; 
-  color:#562672;
+ background-color:#f08080 ;
+  color:#4b1118;
 
 }
 
