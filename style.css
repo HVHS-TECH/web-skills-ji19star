@@ -3,6 +3,12 @@
   src: url(Fonts/minecraft-ten-font/MinecraftTen-VGORe.ttf); 
 }
 
+@font-face {
+ font-family: minecraft_reg ; 
+  src: url(Fonts/minecraft-ten-font/minecraft-font/MinecraftRegular-Bmg3.otf); 
+}
+
+
 
 body {
    background-color: rgb(255, 180, 180);
@@ -22,4 +28,25 @@ body {
 
 }
 
+/*header*/
+.parag {
+ font-family: minecraft_reg; 
+ background-color:#f08080 ;
+  color:#4b1118;
 
+}
+ 
+ .list{
+ font-family: minecraft_reg; 
+ background-color:#f08080 ;
+  color:#4b1118;
+
+
+ }
+
+.photos {
+  aspect-ratio: 1 / 2;
+ }
+
+
+/*aaa*/
