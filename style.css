@@ -12,8 +12,12 @@
 
 body {
    background-color: rgb(255, 180, 180);
-
   }
+
+main{
+ background-color: #ac4a56;
+
+}
 
 /*marquee*/
 .marq {
@@ -30,15 +34,16 @@ body {
 
 /*header*/
 .parag {
- font-family: minecraft_reg; 
- background-color:#f08080 ;
+  font-family: minecraft_reg; 
+  background-color:#f08080 ;
   color:#4b1118;
+  padding-left: 4px;
 
 }
  
  .list{
- font-family: minecraft_reg; 
- background-color:#f08080 ;
+  font-family: minecraft_reg; 
+  background-color:#f08080 ;
   color:#4b1118;
 
 
@@ -48,5 +53,75 @@ body {
   aspect-ratio: 1 / 2;
  }
 
+/*Gallery text title*/
+.title {
+  font-family: minecraft; 
+  background-color:#f08080 ;
+  color:#4b1118;
+}
+
+
+.navi ul {
+  list-style-type: none;
+  margin: 6px;
+  padding: 4px;
+  overflow: hidden;
+  background-color: #ee7b7b;
+  display: flex;
+  justify-content: center;
+  font-family: minecraft;
+}
+
+.navi ul li {
+  float: left;
+}
+
+.navi ul li a {
+  display: block;
+  color: #4b1118;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navi ul li a:hover {
+  background-color: #ce5050;
+}
+
+/*grids*/
+.container {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "menu content"
+    "footer footer";
+  grid-template-columns: 1fr 3fr;
+  gap: 3px;
+  background-color: rgb(221, 117, 123);
+  padding: 5px;
+}
+.container div {
+  background-color: rgb(255, 186, 186);
+  padding: 10px;
+}
+.container div.header {
+  grid-area: header;
+  text-align: center;
+
+}
+.container div.menu {
+  grid-area: menu;
+}
+.container div.content {
+  grid-area: content;
+  font-family: minecraft_reg;
+}
+
+.container div.footer {
+  grid-area: footer;
+  text-align: center;  
+  font-family: minecraft;
+  color:#4b1118
+}
 
 /*aaa*/
