@@ -111,7 +111,11 @@ main{
 }
 .container div.menu {
   grid-area: menu;
+  font-family: minecraft;
+  color:#4b1118 
+
 }
+
 .container div.content {
   grid-area: content;
   font-family: minecraft_reg;
@@ -122,6 +126,28 @@ main{
   text-align: center;  
   font-family: minecraft;
   color:#4b1118
+}
+
+/*fish gif*/
+.nya{
+display:flex;
+justify-content: right;
+width: auto;
+float:right;
+height: 100px;
+}
+
+/*button*/
+.fahh{
+  background-color: rgb(189, 92, 92);
+  border: none;
+  color: #4b1118;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 /*aaa*/
