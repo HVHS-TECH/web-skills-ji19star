@@ -8,6 +8,15 @@
   src: url(Fonts/minecraft-ten-font/minecraft-font/MinecraftRegular-Bmg3.otf); 
 }
 
+@media (min-width: 600px) {
+  .header {grid-area: 1 / span 6;}
+  .menu {grid-area: 2 / span 1;}
+  .content {grid-area: 2 / span 4;}
+  .facts {grid-area: 3 / span 6;}
+  .footer {grid-area: 4 / span 6;}
+}
+
+
 
 
 body {
@@ -19,9 +28,15 @@ main{
 
 }
 
+h1{
+font-family: minecraft;
+
+}
+
 /*marquee*/
 .marq {
    color:#4b1118;
+   font-family: minecraft;
 }
 
 /*header*/
@@ -42,7 +57,7 @@ main{
 }
  
  .list{
-  font-family: minecraft_reg; 
+  font-family: minecraft; 
   background-color:#f08080 ;
   color:#4b1118;
 
@@ -60,7 +75,7 @@ main{
   color:#4b1118;
 }
 
-
+/*nav*/
 .navi ul {
   list-style-type: none;
   margin: 6px;
@@ -88,6 +103,7 @@ main{
   background-color: #ce5050;
 }
 
+
 /*grids*/
 .container {
   display: grid;
@@ -95,7 +111,7 @@ main{
     "header header"
     "menu content"
     "footer footer";
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: auto;
   gap: 3px;
   background-color: rgb(221, 117, 123);
   padding: 5px;
@@ -149,5 +165,18 @@ height: 100px;
   font-size: 16px;
   cursor: pointer;
 }
+
+.fahh {
+  background-color: rgb(189, 92, 92);
+  border: none;
+  color: #4b1118;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
 
 /*aaa*/
