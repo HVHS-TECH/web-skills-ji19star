@@ -38,6 +38,13 @@ font-family: minecraft;
 
 }
 
+/*photos gallery*/
+
+.photos{
+  width:100%;
+}
+
+
 /*marquee*/
 .marq {
    color:#4b1118;
