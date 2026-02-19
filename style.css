@@ -131,52 +131,30 @@ display:grid;
 }
 
 .grid-container div {
-  background-color: #f1f1f1;
-  border: 1px solid black;
+  background-color: #dba3a3;
+  border: 1px solid rgb(116, 40, 40);
   padding: 10px;
   font-size: 30px;
   text-align: center;
+  font-family: minecraft;
 }
 
 /*grids*/
 
 .container {
   display: grid;
-  grid-template-areas:
-    "header "
-    "menu content"
-    "footer footer";
-  grid-template-columns: auto;
-  gap: 3px;
-  background-color: rgb(221, 117, 123);
-  padding: 5px;
+  grid-template-columns: auto auto auto;
+  background-color: rgb(194, 83, 92);
+  padding: 10px;
+  font-family: minecraft;
 }
 .container div {
-  background-color: rgb(255, 186, 186);
+  background-color: #ffd3d3;
+  border: 1px solid rgb(167, 55, 74);
   padding: 10px;
-}
-.container div.header {
-  grid-area: header;
+  font-size: 30px;
   text-align: center;
-
-}
-.container div.menu {
-  grid-area: menu;
-  font-family: minecraft;
-  color:#4b1118 
-
-}
-
-.container div.content {
-  grid-area: content;
-  font-family: minecraft_reg;
-}
-
-.container div.footer {
-  grid-area: footer;
-  text-align: center;  
-  font-family: minecraft;
-  color:#4b1118
+  font-size:2vw;
 }
 
 /*fish gif*/
